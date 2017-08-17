@@ -106,6 +106,7 @@ body {
                 input {
                     width: 240px;
                     border: none;
+                    outline: none;
                     font-size: 13px;
                     height: 20px;
                     padding: 5px;
@@ -114,9 +115,9 @@ body {
                     font-family: inherit;
                     font-style: inherit;
                     font-weight: inherit;
-                }
-                input::-webkit-input-placeholder {
-                    color: #ccc;
+                    &::-webkit-input-placeholder {
+                        color: #ccc;
+                    }
                 }
             }
             .bn {
@@ -143,4 +144,299 @@ body {
             }
         }
     }
+}
+
+#anony-reg-new {
+    margin-bottom: 25px;
+    background-image: url("/assets/images/doubanapp5_bg.png");
+    background-size: contain;
+    background-position: calc(50% - 305px) top;
+    background-repeat: no-repeat;
+    background-color: #edf4ed;
+    height: 214px;
+    .wraper {
+        position: relative;
+        padding: 28px 0 4px;
+        overflow: visible;
+        width: 950px;
+        height: 182px;
+        zoom: 1;
+        margin: 0 auto;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            height: 214px;
+            left: 0;
+            right: 0;
+            z-index: 0;
+            background-image: url("/assets/images/doubanapp5.png");
+            background-repeat: no-repeat;
+            background-position: 0 -150px;
+        }
+        .app {
+            z-index: 2;
+            position: absolute;
+            height: 120px;
+            width: 150px;
+            top: 0;
+            bottom: 0;
+            margin: auto 0 auto 430px;
+            .app-title {
+                margin: 7px 0;
+                font-size: 25px;
+                color: #111;
+                line-height: 24px;
+                span {
+                    color: #111;
+                    margin-left: 10px;
+                    font-weight: 100;
+                }
+            }
+            .app-slogan {
+                color: #111;
+                width: 150px;
+                display: block;
+                margin: 0 0 18px;
+                font-size: 0;
+                color: #111;
+                span {
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                }
+            }
+            .lnk-app {
+                background: #00B51D;
+                color: #FFF;
+                display: inline-block;
+                zoom: 1;
+                padding: 9px 21px;
+                vertical-align: top;
+                border-radius: 2px;
+                font-size: 12px;
+                line-height: 1;
+                float: left;
+            }
+            .app-qr {
+                display: inline-block;
+                zoom: 1;
+                position: relative;
+                margin-left: 5px;
+                height: 30px;
+                float: left;
+                &:hover {
+                    .app-qr-expand {
+                        display: block;
+                    }
+                }
+                .lnk-qr {
+                    display: inline-block;
+                    zoom: 1;
+                    border: 1px solid #48aa0d;
+                    border-radius: 2px;
+                    width: 28px;
+                    height: 28px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .app-qr-expand {
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    padding: 20px 20px 5px;
+                    border-radius: 2px;
+                    text-align: center;
+                    font-size: 13px;
+                    color: #666;
+                    background: #fff;
+                    line-height: 13px;
+                    white-space: nowrap;
+                    img {
+                        width: 160px;
+                        height: 160px;
+                    }
+                    p {
+                        text-align: center;
+                        font-size: 13px;
+                        color: #666;
+                        background: #fff;
+                        line-height: 13px;
+                        margin-top: 13px;
+                        margin-top: 13px;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+        .login {
+            position: relative;
+            z-index: 2;
+            width: 270px;
+            float: right;
+            margin-bottom: 15px;
+            font-size: 0;
+            #lzform {
+                margin: 0;
+                padding: 0;
+                border: 0px;
+                display: block;
+                fieldset {
+                    margin: 0;
+                    padding: 0;
+                    border: 0px;
+                    legend {
+                        display: none;
+                    }
+                    .item {
+                        vertical-align: top;
+                        text-align: left;
+                        font-size: 0;
+                        letter-spacing: normal;
+                        word-spacing: normal;
+                        position: relative;
+                        margin-bottom: 4px;
+                        height: 32px;
+                    }
+                    @mixin inputstyle {
+                        position: relative;
+                        border-radius: 2px;
+                        background: #fff;
+                        width: 268px;
+                    }
+                    @mixin ipstyle {
+                        border: 1px solid #DBE5DB;
+                        border-radius: 2px;
+                        width: 252px;
+                        padding: 0 8px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 12px;
+                    }
+                    .item-account,
+                    .item-passwd,
+                    .item-captcha {
+                        @include inputstyle;
+                        input {
+                            @include ipstyle;
+                        }
+                    }
+                    .item-passwd {
+                        .help {
+                            position: absolute;
+                            top: 0;
+                            right: 10px;
+                            font-size: 12px;
+                            line-height: 35px;
+                            a {
+                                color: #ccc;
+                            }
+                        }
+                    }
+                    .item-captcha {
+                        img {
+                            width: 158px;
+                            height: 26px;
+                            vertical-align: middle;
+                            position: absolute;
+                            right: 1px;
+                            top: 3px;
+                            cursor: pointer;
+                        }
+                    }
+                    .item-submit {
+                        margin-top: 6px;
+                        vertical-align: top;
+                        text-align: left;
+                        font-size: 0;
+                        letter-spacing: normal;
+                        word-spacing: normal;
+                        >input {
+                            padding: 0 22px;
+                            margin-right: 0;
+                            height: 30px;
+                            font-size: 12px;
+                            border: none;
+                            border-radius: 2px;
+                            cursor: pointer;
+                            background: #30A080;
+                            border-color: #30A080;
+                            color: #fff;
+                            width: 89px;
+                            box-sizing: content-box;
+                            &:hover {
+                                background-color: #2a8c70;
+                            }
+                        }
+                        >a {
+                            color: #30A080;
+                            background: transparent;
+                            display: inline-block;
+                            zoom: 1;
+                            padding: 8px 21px 7px;
+                            vertical-align: top;
+                            border-radius: 2px;
+                            border: 1px solid #30A080;
+                            font-size: 12px;
+                            line-height: 1;
+                            width: 89px;
+                            text-align: center;
+                            margin-left: 4px;
+                        }
+                    }
+                    .item-action {
+                        font-size: 12px;
+                        margin-top: 8px;
+                        overflow: hidden;
+                        color: #666;
+                        label {
+                            font-family: Tahoma;
+                            vertical-align: middle;
+                            input {
+                                vertical-align: middle;
+                            }
+                        }
+                        ul {
+                            float: right;
+                            font-size: 0;
+                            margin-top: 3px;
+                            margin-right: 4px;
+                            li {
+                                display: inline-block;
+                                a {
+                                    &:before {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 14px;
+                                        height: 12px;
+                                        background-repeat: no-repeat;
+                                        background-position: bottom;
+                                    }
+                                }
+                            }
+                            .weibo {
+                                margin-left: 8px;
+                                &:before {
+                                    background-image: url("/assets/images/weibo.png");
+                                }
+                            }
+                            .weixin {
+                                &:before {
+                                    background-image: url("/assets/images/wechat.png");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#anony-sns {
+    padding: 10px 0;
+    margin-bottom: 30px;
+    min-height: 200px;
 }

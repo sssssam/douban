@@ -4,6 +4,7 @@
 <head>
     <title>豆瓣</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
@@ -46,6 +47,66 @@
                     <input type="sumbit" name="" value="搜索">
                 </span>
             </form>
+        </div>
+    </div>
+    <div id="anony-reg-new">
+        <div class="wraper">
+            <div class="login">
+                <form action="" method="post" id="lzform" accept-charset="utf-8">
+                    <fieldset>
+                        <legend>登录</legend>
+                        <div class="item item-account">
+                            <input type="text" name="" value="" placeholder="邮箱 / 手机号" tabindex="1">
+                        </div>
+                        <div class="item item-passwd">
+                            <input type="password" name="" value="" placeholder="密码" tabindex="1">
+                            <div class="help"><a href="#" title="">帮助</a></div>
+                        </div>
+                        <div class="item item-captcha">
+                            <input type="text" name="" value="" placeholder="验证码" tabindex="1">
+                            <img src="assets/images/captcha.jpg" alt="" title="看不清楚?点图片可以换一个">
+                        </div>
+                        <div class="item item-submit">
+                            <input type="submit" name="" value="登录豆瓣" tableindex="4">
+                            <a href="#" title="">注册帐号</a>
+                        </div>
+                        <div class="item-action">
+                            <label>
+                                <input type="checkbox" name="" tableindex="4" value=""> 记住我
+                            </label>
+                            <ul>
+                                <li>
+                                    <a class="weixin" href="#">微信登录</a>
+                                </li>
+                                <li>
+                                    <a class="weibo" href="#">微博登录</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="app">
+                <p class="app-title">豆瓣<span>5.0</span>
+                </p>
+                <p class="app-slogan">
+                    <span>我们的精神角落</span>
+                </p>
+                <a href="#" class="lnk-app">下载豆瓣 App</a>
+                <div class="app-qr">
+                    <a class="lnk-qr">
+                        <img src="assets/images/icon_qrcode_green.png">
+                    </a>
+                    <div class="app-qr-expand">
+                        <img src="assets/images/doubanapp_qrcode.png">
+                        <p>iOS / Android 扫码直接下载</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="anony-sns">
+        <div class="wrapper">
         </div>
     </div>
 </body>
