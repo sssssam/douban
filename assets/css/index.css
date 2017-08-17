@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  padding-top: 30px;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+  height: 2000px; }
+
+.header {
+  width: 950px;
+  margin: 0 auto 25px; }
+  .header .nav-link {
+    float: right;
+    margin-top: 6px; }
+    .header .nav-link ul li {
+      display: inline-block;
+      zoom: 1;
+      margin: 0 0 0 17px; }
+      .header .nav-link ul li a {
+        display: inline-block;
+        zoom: 1;
+        width: 40px;
+        height: 20px;
+        overflow: hidden;
+        margin: 0;
+        line-height: 20em;
+        outline: none;
+        vertical-align: middle;
+        background: url("/assets/images/anony_nav_logo.png"); }
+      .header .nav-link ul li .ink-book {
+        background-position: 0 0; }
+      .header .nav-link ul li .lnk-movie {
+        background-position: -60px 0; }
+      .header .nav-link ul li .lnk-music {
+        background-position: -120px 0; }
+      .header .nav-link ul li .lnk-group {
+        background-position: -180px 0; }
+      .header .nav-link ul li .lnk-events {
+        background-position: -299px 0; }
+      .header .nav-link ul li .lnk-fm {
+        background-position: -241px 0; }
+      .header .nav-link ul li .lnk-shijian {
+        margin-bottom: 1px;
+        background: url("/assets/images/ic_shijian_home_nav.png") no-repeat 100% 100%;
+        background-size: cover; }
+      .header .nav-link ul li .lnk-market {
+        width: 42px;
+        background-position: -421px 0; }
+  .header h1 {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    width: 160px;
+    height: 34px;
+    margin: 0 20px 0 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: normal;
+    background: url("/assets/images/logo_db.png") no-repeat 0 0;
+    overflow: hidden; }
+    .header h1 a {
+      display: block;
+      height: 34px;
+      line-height: 10em; }
+  .header .anony-srh {
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3c3; }
+    .header .anony-srh form {
+      margin: 0;
+      padding: 0;
+      border: 0px; }
+      .header .anony-srh form .inp {
+        display: block;
+        height: 30px;
+        overflow: hidden; }
+        .header .anony-srh form .inp input {
+          width: 240px;
+          border: none;
+          font-size: 13px;
+          height: 20px;
+          padding: 5px;
+          margin-right: 3px;
+          vertical-align: middle;
+          font-family: inherit;
+          font-style: inherit;
+          font-weight: inherit; }
+        .header .anony-srh form .inp input::-webkit-input-placeholder {
+          color: #ccc; }
+      .header .anony-srh form .bn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        cursor: pointer;
+        background: url("/assets/images/bn_srh_1.png") 50% 50% no-repeat; }
+        .header .anony-srh form .bn input {
+          border: none;
+          background: transparent;
+          overflow: hidden;
+          width: 30px;
+          height: 30px;
+          font-size: 0;
+          color: transparent;
+          cursor: pointer;
+          margin-right: 3px;
+          vertical-align: middle; }
