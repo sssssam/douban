@@ -478,3 +478,365 @@ body {
   margin-bottom: 30px;
   min-height: 200px;
 }
+
+#anony-sns > .wrapper {
+  zoom: 1;
+  width: 950px;
+  margin: 0 auto;
+}
+
+#anony-sns > .wrapper:before {
+  content: "";
+  width: 100%;
+  height: 0px;
+}
+
+#anony-sns > .wrapper > .main {
+  overflow: hidden;
+  zoom: 1;
+}
+
+#anony-sns > .wrapper > .main > .mod {
+  margin-bottom: 30px;
+  width: 655px;
+  height: 446px;
+}
+
+#anony-sns > .wrapper > .main > .mod h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-sns > .wrapper > .main > .mod h2 span {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+}
+
+#anony-sns > .wrapper > .main > .mod h2 span a {
+  color: #37a;
+}
+
+#anony-sns > .wrapper > .main > .mod .albums {
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+  color: #999;
+  font-size: 0;
+  letter-spacing: -0.31em;
+}
+
+#anony-sns > .wrapper > .main > .mod .albums .picture {
+  margin: -10px 0 0 -10px;
+}
+
+#anony-sns > .wrapper > .main > .mod .albums .picture li {
+  display: inline-block;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  width: 170px;
+  vertical-align: top;
+  font-size: 12px;
+  margin: 10px 0 0 10px;
+}
+
+#anony-sns > .wrapper > .main > .mod .albums .picture li .pic {
+  display: inline-block;
+  zoom: 1;
+  width: 170px;
+  max-height: 170px;
+  overflow: hidden;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#anony-sns > .wrapper > .main > .mod .albums .picture li > a {
+  color: #37a;
+}
+
+#anony-sns > .wrapper > .main > .mod .albums .picture li > span {
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+#anony-sns > .wrapper > .main > .mod .notes {
+  overflow: hidden;
+  zoom: 1;
+  color: #666;
+}
+
+#anony-sns > .wrapper > .main > .mod .notes ul li {
+  word-wrap: break-word;
+  margin-top: 12px;
+}
+
+#anony-sns > .wrapper > .main > .mod .notes ul li a {
+  color: #37a;
+}
+
+#anony-sns > .wrapper > .main > .mod .notes ul .first {
+  margin-top: 0;
+}
+
+#anony-sns > .wrapper > .main > .mod .notes ul .first .author {
+  color: #999;
+}
+
+#anony-sns > .wrapper > .main > .mod .notes ul .first p {
+  display: block;
+}
+
+#anony-sns > .wrapper > .slide {
+  float: right;
+  width: 265px;
+  margin-left: 30px;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul {
+  margin-top: -4px;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul > h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul > h2 > span {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul > .slidenews {
+  margin-top: -4px;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul > .slidenews li {
+  margin-top: 10px;
+  color: #999;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul > .slidenews li a {
+  color: #37a;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul > .slidenews li .rec_topics_label {
+  transform: translateY(-0.5px);
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 2px;
+  color: #4CC15F;
+}
+
+#anony-sns > .wrapper > .slide > .online > ul > .slidenews li .rec_topics_subtitle {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 1;
+  color: #aaaaaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#anony-time {
+  padding: 40px 0 20px;
+  background: #f7f7f7;
+  margin-bottom: 30px;
+  min-height: 200px;
+}
+
+#anony-time > .wrapper {
+  zoom: 1;
+  width: 950px;
+  margin: 0 auto;
+}
+
+#anony-time > .wrapper:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#anony-time > .wrapper .sidenav {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+
+#anony-time > .wrapper .sidenav > h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-time > .wrapper .sidenav > h2 a {
+  color: #494949;
+  font-size: 24px;
+}
+
+#anony-time > .wrapper .main {
+  overflow: hidden;
+  zoom: 1;
+}
+
+#anony-time > .wrapper .main > h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-time > .wrapper .main > h2 .pl {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+}
+
+#anony-time > .wrapper .main > h2 .pl a {
+  color: #37a;
+}
+
+#anony-time > .wrapper .main > ul li {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  margin-right: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#anony-time > .wrapper .main > ul li .cover {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#anony-time > .wrapper .main > ul li .cover img {
+  width: 100px;
+  height: 141px;
+  border-width: 0;
+  vertical-align: middle;
+}
+
+#anony-time > .wrapper .main > ul li .title {
+  color: #333333;
+  font-size: 13px;
+  line-height: 1.38;
+}
+
+#anony-time > .wrapper .main > ul li .type {
+  color: #999999;
+  line-height: 1;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+#anony-video {
+  padding: 10px 0;
+  margin-bottom: 30px;
+  min-height: 200px;
+}
+
+#anony-video .wrapper {
+  zoom: 1;
+  width: 980px;
+  margin: 0 auto;
+}
+
+#anony-video .wrapper .sidenav {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#anony-video .wrapper .sidenav .section-title {
+  margin-bottom: 15px;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-video .wrapper .sidenav .section-title a {
+  color: #494949;
+  font-size: 24px;
+}
+
+#anony-video .wrapper .main {
+  overflow: hidden;
+  zoom: 1;
+}
+
+#anony-video .wrapper .main h2 {
+  margin-bottom: 15px;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-video .wrapper .main .video-list {
+  margin-bottom: 25px;
+}
+
+#anony-video .wrapper .main .video-list li {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+#anony-video .wrapper .main .video-list li .cover {
+  height: 140px;
+  margin-bottom: 11px;
+}
+
+#anony-video .wrapper .main .video-list li .cover a {
+  position: relative;
+  display: block;
+  color: #fff;
+  height: 100%;
+  z-index: 1;
+}
+
+#anony-video .wrapper .main .video-list li .cover a img {
+  width: 250px;
+  height: 140px;
+  z-index: 21;
+}
+
+#anony-video .wrapper .main .video-list li .cover a span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 100;
+}
+
+#anony-video .wrapper .main .video-list li .cover a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  margin: auto;
+  background: url("/assets/images/play.png") center/18px no-repeat;
+}
+
+#anony-video .wrapper .main .video-list li .video-title {
+  font-size: 13px;
+  line-height: 1.54;
+  color: #494949;
+}
