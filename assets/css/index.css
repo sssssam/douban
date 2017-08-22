@@ -9,7 +9,6 @@ body {
   padding-top: 30px;
   font: 12px Helvetica, Arial, sans-serif;
   line-height: 1.62;
-  height: 2000px;
 }
 
 .header {
@@ -248,7 +247,7 @@ body {
   display: inline-block;
   zoom: 1;
   position: relative;
-  margin-left: 5px;
+  margin-left: 2px;
   height: 30px;
   float: left;
 }
@@ -839,4 +838,439 @@ body {
   font-size: 13px;
   line-height: 1.54;
   color: #494949;
+}
+
+#anony-movie {
+  padding: 40px 0 20px;
+  background: #f7f7f7;
+  margin-bottom: 30px;
+  min-height: 200px;
+}
+
+#anony-movie > .wrapper {
+  width: 950px;
+  height: 526px;
+  margin: 0 auto;
+  zoom: 1;
+  color: #111;
+}
+
+#anony-movie > .wrapper > .sidenav {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+
+#anony-movie > .wrapper > .sidenav h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-movie > .wrapper > .sidenav h2 a {
+  color: #27a;
+  font-size: 24px;
+}
+
+#anony-movie > .wrapper > .sidenav .side-links {
+  margin-bottom: 40px;
+}
+
+#anony-movie > .wrapper > .sidenav .side-links ul li {
+  position: relative;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#anony-movie > .wrapper > .sidenav .side-links ul li a {
+  color: #27a;
+}
+
+#anony-movie > .wrapper > .sidenav .side-links ul .site-nav-bt img {
+  top: -5px;
+  position: relative;
+}
+
+#anony-movie > .wrapper > .side {
+  float: right;
+  width: 265px;
+  margin-left: 30px;
+}
+
+#anony-movie > .wrapper > .side .mod {
+  margin-bottom: 30px;
+}
+
+#anony-movie > .wrapper > .side .mod h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-movie > .wrapper > .side .mod h2 .pl {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+}
+
+#anony-movie > .wrapper > .side .mod h2 .pl a {
+  color: #27a;
+}
+
+#anony-movie > .wrapper > .side .mod .tags {
+  font-size: 0;
+  letter-spacing: -.31em;
+}
+
+#anony-movie > .wrapper > .side .mod .tags ul {
+  margin-top: -4px;
+}
+
+#anony-movie > .wrapper > .side .mod .tags ul li {
+  width: 4em;
+  margin-top: 4px;
+  text-align: left;
+  display: inline-block;
+  zoom: 1;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+#anony-movie > .wrapper > .side .mod .tags ul li a {
+  color: #27a;
+}
+
+#anony-movie > .wrapper > .side .list1 ol li {
+  margin-bottom: 6px;
+  padding-bottom: 5px;
+  list-style-type: decimal;
+  list-style-position: inside;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#anony-movie > .wrapper > .side .list1 ol li a {
+  margin-left: 5px;
+  color: #27a;
+  font-size: 12px;
+}
+
+#anony-movie > .wrapper > .main {
+  overflow: hidden;
+  zoom: 1;
+}
+
+#anony-movie > .wrapper > .main h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-movie > .wrapper > .main h2 .pl {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+}
+
+#anony-movie > .wrapper > .main h2 .pl a {
+  color: #27a;
+}
+
+#anony-movie > .wrapper > .main .movie-list {
+  font-size: 0;
+  letter-spacing: -.31em;
+  height: 526px;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul {
+  margin-top: -40px;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li {
+  display: inline-block;
+  zoom: 1;
+  width: 24.8%;
+  height: 220px;
+  margin-top: 40px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li div {
+  margin-bottom: 5px;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li .pic {
+  height: 145px;
+  overflow: hidden;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li .title {
+  line-height: 1.45;
+  font-size: 13px;
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li .title a {
+  color: #333;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li .rating {
+  margin-bottom: 4px;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li .rating .span {
+  background-position: 0 -22px;
+  display: inline-block;
+  zoom: 1;
+  background: url("/assets/images/ic_rating_s.png") no-repeat;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li .rating i {
+  margin-left: 4px;
+  color: #e09015;
+}
+
+#anony-movie > .wrapper > .main .movie-list ul li > a {
+  background: #1c8bd0;
+  color: #fff;
+  height: 23px;
+  width: 68px;
+  padding: 2px 10px;
+  line-height: 1.26em;
+}
+
+#anony-events {
+  padding: 10px 0;
+  margin-bottom: 30px;
+  min-height: 200px;
+}
+
+#anony-events .wrapper {
+  width: 950px;
+  height: 338px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+#anony-events .wrapper > .sidenav {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+
+#anony-events .wrapper > .sidenav h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-events .wrapper > .sidenav h2 a {
+  color: #ec5303;
+}
+
+#anony-events .wrapper > .sidenav .side-links {
+  margin-bottom: 40px;
+}
+
+#anony-events .wrapper > .sidenav .side-links ul li {
+  position: relative;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#anony-events .wrapper > .sidenav .side-links ul li a {
+  color: #643;
+  line-height: 1.62;
+}
+
+#anony-events .wrapper > .sidenav .side-links ul li a:hover {
+  background: #37a;
+}
+
+#anony-events .wrapper > .side {
+  float: right;
+  width: 265px;
+  margin-left: 30px;
+}
+
+#anony-events .wrapper > .side .mod {
+  margin-bottom: 30px;
+}
+
+#anony-events .wrapper > .side .mod h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-events .wrapper > .side .mod .cate {
+  margin-bottom: 10px;
+  line-height: 1.62;
+}
+
+#anony-events .wrapper > .side .mod .cate ul {
+  margin-left: -10px;
+}
+
+#anony-events .wrapper > .side .mod .cate ul .cate-label {
+  width: 100%;
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.62;
+}
+
+#anony-events .wrapper > .side .mod .cate ul .cate-label a {
+  color: #643;
+  font-size: 12px;
+}
+
+#anony-events .wrapper > .side .mod .cate ul li {
+  display: inline-block;
+  zoom: 1;
+  margin-left: 10px;
+}
+
+#anony-events .wrapper > .side .mod .cate ul li a {
+  color: #643;
+  font-size: 12px;
+}
+
+#anony-events .wrapper > .main {
+  overflow: hidden;
+  zoom: 1;
+}
+
+#anony-events .wrapper > .main h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#anony-events .wrapper > .main h2 .pl {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+}
+
+#anony-events .wrapper > .main h2 .pl a {
+  color: #643;
+}
+
+#anony-events .wrapper > .main .list {
+  font-size: 0;
+  letter-spacing: -.31em;
+}
+
+#anony-events .wrapper > .main .list ul {
+  margin-left: -20px;
+  margin-top: -40px;
+  line-height: 1.62;
+}
+
+#anony-events .wrapper > .main .list ul li {
+  width: 248px;
+  margin-left: 20px;
+  text-align: left;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 40px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+#anony-events .wrapper > .main .list ul li .pic {
+  float: left;
+  margin-right: 10px;
+}
+
+#anony-events .wrapper > .main .list ul li .info {
+  overflow: hidden;
+  zoom: 1;
+  color: #666;
+}
+
+#anony-events .wrapper > .main .list ul li .info .title {
+  line-height: 1.45;
+  font-size: 13px;
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+
+#anony-events .wrapper > .main .list ul li .info .title a {
+  color: #643;
+}
+
+#anony-events .wrapper > .main .list ul li .info .title a span {
+  background-color: #ff8263;
+  vertical-align: baseline;
+  color: #fff;
+  font-weight: 200;
+  font-size: 11px;
+  line-height: 17px;
+  padding: 0 3px;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+#footer {
+  width: 950px;
+  margin: 0 auto;
+}
+
+#footer #ft {
+  overflow: hidden;
+  zoom: 1;
+  padding: 14px 0;
+  margin-top: 30px;
+  border-top: 1px dashed #dcdcdc;
+  color: #999;
+}
+
+#footer #ft #icp {
+  float: left;
+  color: #999;
+}
+
+#footer #ft #icp a {
+  color: #37a;
+}
+
+#footer #ft #icp a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #37a;
+}
+
+#footer #ft .fright {
+  float: right;
+}
+
+#footer #ft .fright a {
+  color: #37a;
+}
+
+#footer #ft .fright a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #37a;
+}
+
+#footer #ft .fright a img {
+  border-width: 0;
+  vertical-align: middle;
 }

@@ -126,5 +126,115 @@
         "title": "《瓣嘴3》第1期｜雷佳音：别叫我渣男，我是安静的美男子",
         "time": "8:45",
         "image": "assets/images/file-1501662817.JPG"
+    }],
+    "buy": [{
+        "title": "innisfree 悦诗风吟 绿茶籽精萃水分菁露 80ml/瓶",
+        "img": "assets/images/p1974318.jpg",
+        "user": "先声再康",
+        "dprice": "199.00",
+        "price": "139.00"
+    }, {
+        "title": "姆明合作款指甲油套装 七夕精选礼物",
+        "img": "assets/images/p1985721.jpg",
+        "user": "小奥汀水性指彩",
+        "dprice": "228.00",
+        "price": "138.00"
+    }, {
+        "title": "hanalice彩虹糖系列蝴蝶芭蕾平底鞋（十五色）",
+        "img": "assets/images/p1986326.jpg",
+        "user": "花与爱丽斯",
+        "dprice": "219.00",
+        "price": "139.00"
+    }, {
+        "title": "潮汕中秋月饼朥饼",
+        "img": "assets/images/p1985709.jpg",
+        "user": "觅潮记",
+        "dprice": "98.00",
+        "price": "78.00"
+    }, {
+        "title": "macbook支架",
+        "img": "assets/images/p1971660.jpg",
+        "user": "梵瀚生活创意",
+        "dprice": "199.00",
+        "price": "149.00"
+    }, {
+        "title": "小巨蛋T1便携式茶具礼品套装砂岩釉茶盒版（极客黑）",
+        "img": "assets/images/p449949.jpg",
+        "user": "小巨蛋市集",
+        "dprice": "736.00",
+        "price": "368.00"
+    }],
+    "shop": [{
+        "logo": "assets/images/4c9e4ddc149b9a8.jpg",
+        "bg": "#99c6a9;",
+        "title": "先声再康",
+        "content": "本店承诺所售商品均为海外原装正品从源头把关，新鲜一手货源 直达您的手里。您的满...",
+        "img": "assets/images/p1958210.jpg",
+        "name": "JAYJUN黑色水光面膜三部曲10片 韩国补水保湿紧致水光针黑面膜贴",
+        "dprice": "189.00",
+        "price": "129.00",
+        "dimg1": "assets/images/p1958239.jpg",
+        "dimg2": "assets/images/p1958221.jpg",
+        "dimg3": "assets/images/p1934790.jpg"
+    }, {
+        "logo": "assets/images/1694ce1663af123.jpg",
+        "bg": "#edcfb7;",
+        "title": "5D智能生活平台",
+        "content": "用美好的东西，过美好的一生。青简款巧克力音箱豆瓣专享套餐，欢迎选购。",
+        "img": "assets/images/p1964248.jpg",
+        "name": "5D Minor巧克力蓝牙音箱-青简定制套装",
+        "dprice": "",
+        "price": "368.00",
+        "dimg1": "assets/images/p1964115.jpg",
+        "dimg2": "assets/images/p1964091.jpg",
+        "dimg3": "assets/images/p1961584.jpg"
+    }, {
+        "logo": "assets/images/b1973f89085d252.jpg",
+        "bg": "#dedbc7;",
+        "title": "磐羊草",
+        "content": "痞子用真皮来做鞋覆，抛弃了现代的机械式的模型生产，每一双在经历厚茧粗拙的双手精心...",
+        "img": "assets/images/p1959914.jpg",
+        "name": "从来不曾想起  却永远也不会忘记",
+        "dprice": "348.00",
+        "price": "188.00",
+        "dimg1": "assets/images/p1959881.jpg",
+        "dimg2": "assets/images/p1941913.jpg",
+        "dimg3": "assets/images/p1960002.jpg"
+    }, {
+        "logo": "assets/images/3c433a1f03712d9.jpg",
+        "bg": "#eef2f1;",
+        "title": "小巨蛋市集",
+        "content": "只想为你“认真”的设计一款更小更轻更好用的茶具。",
+        "img": "assets/images/p1929367.jpg",
+        "name": "小巨蛋猫杯便携收纳日式旅行功夫茶具礼品套装节日生日婚庆礼物",
+        "dprice": "936.00",
+        "price": "468.00",
+        "dimg1": "assets/images/p449949.jpg",
+        "dimg2": "assets/images/p1929872.jpg",
+        "dimg3": "assets/images/p1929911.jpg"
+    }, {
+        "logo": "assets/images/09b0358584c11af.jpg",
+        "bg": "#d3d1dc;",
+        "title": "东长",
+        "content": "深度的体验和理性的思考，于自我实践中挖掘物质在身体上恰如其分地表达。",
+        "img": "assets/images/p1960766.jpg",
+        "name": "酷夏精选｜S925白银手镯 | 東長手工设计没有系列",
+        "dprice": "",
+        "price": "289.00",
+        "dimg1": "assets/images/p305697.jpg",
+        "dimg2": "assets/images/p155091.jpg",
+        "dimg3": "assets/images/p155137.jpg"
+    }, {
+        "logo": "assets/images/742eb2e29403006.jpg",
+        "bg": "#d7ede1;",
+        "title": "护你妹卫生巾",
+        "content": "“ Honeymate护你妹” 为全球女性推出首款高端最美卫生巾，For“更挑剔...",
+        "img": "assets/images/p1956153.jpg",
+        "name": "【纯棉新品】Honeymate美则·护你妹卫生巾组合装3日2夜1迷你",
+        "dprice": "151.00",
+        "price": "139.00",
+        "dimg1": "assets/images/p1956155.jpg",
+        "dimg2": "assets/images/p1956157.jpg",
+        "dimg3": "assets/images/p1956162.jpg"
     }]
 }

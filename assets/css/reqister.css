@@ -1,0 +1,38 @@
+body {
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+.header {
+  margin-bottom: 40px;
+  width: 950px;
+  margin: 0 auto 40px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.header #header .site-nav {
+  padding-top: 30px;
+}
+
+.header #header .site-nav a img {
+  border-width: 0;
+  vertical-align: middle;
+}
+
+.wrapper {
+  width: 950px;
+  margin: 0 auto 40px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.wrapper h1 {
+  display: block;
+  margin: 0;
+  padding: 0 0 15px 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #494949;
+  line-height: 1.1;
+}
