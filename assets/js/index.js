@@ -1,5 +1,6 @@
 $(function() {
     $.get('assets/json/my.json', function(data) {
+        console.log('123');
         var str = "";
         for (var i = 0; i < data.albums.length; i++) {
             str += `
